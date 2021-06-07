@@ -1,0 +1,64 @@
+// based on a keyboard map from an 'xkb/symbols/pl' file
+
+
+partial alphanumeric_keys
+xkb_symbols "kash-phonetic" {
+
+   name[Group1]= "Kashmiri";
+
+   key <TLDE> {  [     UFDF2  ,       UFDFB      ]     };
+   key <AE01> {  [     U06F1  ,       U0021, 0x1000021      ]     };
+   key <AE02> {  [     U06F2  ,       U0040, 0x1000040      ]     };
+   key <AE03> {  [     U06F3  ,       UFDFA, 0x1000023      ]     };
+   key <AE04> {  [     U06F4  ,       U0612      ]     };
+   key <AE05> {  [     U06F5  ,       U0614, 0x100066A      ]     };
+   key <AE06> {  [     U06F6  ,       U0613      ]     };
+   key <AE07> {  [     U06F7  ,       U0611, 0x1000026      ]     };
+   key <AE08> {  [     U06F8  ,       U0610, 0x100002A      ]     };
+   key <AE09> {  [     U06F9  ,       U0028, 0x1000029      ]     };
+   key <AE10> {  [     U06F0  ,       U0029, 0x1000028      ]     };
+
+   key <AE11> {  [     U002D  ,       U06ED      ]     };
+   key <AE12> {  [     U003D  ,       U002B      ]     };
+   key <AD01> {  [     U0642  ,       U0626      ]     };
+   key <AD02> {  [     U0648  ,       U06C4, 0x1000602      ]     };
+   key <AD03> {  [     U0639  ,       U0670, 0x1000656      ]     };
+   key <AD04> {  [     U0631  ,       U0691, 0x1000613      ]     };
+   key <AD05> {  [     U062A  ,       U0679, 0x1000614      ]     };
+   key <AD06> {  [     U06D2  ,       U066E, 0x1000601      ]     };
+   key <AD07> {  [     U0621  ,       U0657, 0x1000654      ]     };
+   key <AD08> {  [     U06CC  ,       U06CD, 0x1000611      ]     };
+   key <AD09> {  [     U06C1  ,       U06BE      ]     };
+   key <AD10> {  [     U067E  ,       U064F, 0x1000657      ]     };
+   key <AD11> {  [     U0654  ,       U065A      ]     };
+   key <AD12> {  [     U0655  ,       U065B      ]     };
+
+   key <AC01> {  [     U0627  ,       U0622, 0x100FDF2      ]     };
+   key <AC02> {  [     U0633  ,       U0635, 0x1000610      ]     };
+   key <AC03> {  [     U062F  ,       U0688, 0x100FDFA      ]     };
+   key <AC04> {  [     U0641  ,       U06C3      ]     };
+   key <AC05> {  [     U06AF  ,       U063A      ]     };
+   key <AC06> {  [     U062D  ,       U06BE, 0x1000612      ]     };
+   key <AC07> {  [     U062C  ,       U0636, 0x100FDFB      ]     };
+   key <AC08> {  [     U06A9  ,       U062E      ]     };
+   key <AC09> {  [     U0644  ,       U0656      ]     };
+   key <AC10> {  [     U061B  ,       U003A      ]     };
+   key <AC11> {  [     U0027  ,       U0022      ]     };
+   key <BKSL> {  [     0x100005C  ,       0x100007C      ]     };
+
+   key <LSGT> {  [     U064D  ,       UFDFD      ]     };
+   key <AB01> {  [     U0632  ,       U0630, 0x100060F      ]     };
+   key <AB02> {  [     U0634  ,       U0698, 0x100060E      ]     };
+   key <AB03> {  [     U0686  ,       U062B, 0x1000603      ]     };
+   key <AB04> {  [     U0637  ,       U0638      ]     };
+   key <AB05> {  [     U0628  ,       U064B, 0x100FDFD      ]     };
+   key <AB06> {  [     U0646  ,       U06BA, 0x1000600      ]     };
+   key <AB07> {  [     U0645  ,       U0651      ]     };
+   key <AB08> {  [     U060C  ,       U0650, 0x100003C      ]     };
+   key <AB09> {  [     U06D4  ,       U064E, 0x100003E      ]     };
+   key <AB10> {  [     U0672  ,       U061F      ]     };
+
+//   key <RALT> {  [ Mode_switch, Multi_key ] };
+
+   include "level3(ralt_switch)"
+};
